@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Core\Definitions.h" />
+    <ClInclude Include="src\Core\Math\Vector.h" />
+    <ClInclude Include="src\Application\Application.h" />
+    <ClInclude Include="src\Application\Main.h" />
+    <ClInclude Include="src\Core\Math\SIMD.h" />
+    <ClInclude Include="src\Dandelion.h" />
+    <ClInclude Include="src\Audio\AudioCommon.h" />
+    <ClInclude Include="src\Graphics\GraphicsCommon.h" />
+    <ClInclude Include="src\Physics\PhysicsCommon.h" />
+    <ClInclude Include="src\Core\CoreCommon.h" />
+    <ClInclude Include="src\Core\Math\MathCommon.h" />
+    <ClInclude Include="src\Core\Math\Matrix.h" />
+    <ClInclude Include="src\Core\Memory\Allocator.h" />
+    <ClInclude Include="src\Core\Singleton.h" />
+    <ClInclude Include="src\GameObject\GameObject.h" />
+    <ClInclude Include="src\GameObject\Transform\Transform.h" />
+    <ClInclude Include="src\GameObject\GameObjectCommon.h" />
+    <ClInclude Include="src\Physics\Shapes\AABB.h" />
+    <ClInclude Include="src\Physics\Shapes\Circle.h" />
+    <ClInclude Include="src\Physics\Shapes\Shape.h" />
+    <ClInclude Include="src\Physics\Manifold.h" />
+    <ClInclude Include="src\GameObject\Manager\GameObjectManager.h" />
+    <ClInclude Include="src\Graphics\Graphics.h" />
+    <ClInclude Include="src\Core\Input\InputManager.h" />
+    <ClInclude Include="src\Graphics\Mesh\Mesh.h" />
+    <ClInclude Include="src\GameObject\Sprite\Sprite.h" />
+    <ClInclude Include="src\Graphics\Camera\Camera.h" />
+    <ClInclude Include="src\Physics\World\PhysicsWorld.h" />
+    <ClInclude Include="src\Physics\Body\Body.h" />
+    <ClInclude Include="src\Audio\AudioEngine\AudioEngine.h" />
+    <ClInclude Include="src\Audio\AudioVoice\AudioVoice.h" />
+    <ClInclude Include="src\Audio\WaveData\WaveData.h" />
+    <ClInclude Include="src\Audio\AudioEvents\AudioEvent.h" />
+    <ClInclude Include="src\GameObject\Script\Script.h" />
+    <ClInclude Include="src\GameObject\Factory\GameObjectFactory.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application\Application.cpp" />
+    <ClCompile Include="src\GameObject\GameObject.cpp" />
+    <ClCompile Include="src\Graphics\Graphics.cpp" />
+    <ClCompile Include="src\External\stb_image.cpp" />
+    <ClCompile Include="src\External\glad_debug.cpp" />
+    <ClCompile Include="src\External\glad_release.cpp" />
+    <ClCompile Include="src\Core\Input\InputManager.cpp" />
+    <ClCompile Include="src\Graphics\Shader\Shader.cpp" />
+    <ClCompile Include="src\GameObject\Sprite\Sprite.cpp" />
+    <ClCompile Include="src\GameObject\Manager\GameObjectManager.cpp" />
+    <ClCompile Include="src\Physics\World\PhysicsWorld.cpp" />
+    <ClCompile Include="src\Physics\Manifold.cpp" />
+    <ClCompile Include="src\Physics\Shapes\AABB.cpp" />
+    <ClCompile Include="src\Physics\Shapes\Circle.cpp" />
+    <ClCompile Include="src\Audio\AudioEngine\AudioEngine.cpp" />
+    <ClCompile Include="src\Audio\WaveData\WaveData.cpp" />
+    <ClCompile Include="src\GameObject\Factory\GameObjectFactory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
